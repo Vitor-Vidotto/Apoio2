@@ -10,31 +10,28 @@ const Elogios = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const messages = [
-    "Você é um verdadeiro Fúria da Noite! 🐉",
-    "Sua coragem inspira toda a ilha de Berk!",
-    "Nem o Alfa consegue ser mais incrível que você!",
-    "Com você, qualquer voo se torna uma aventura épica!",
-    "Você tem a alma de um verdadeiro viking e o coração de um dragão! ❤️‍🔥",
-    "Até o Banguela fica impressionado com suas habilidades!",
-    "Nenhum dragão é indomável quando você está por perto!",
-    "Seu brilho ilumina o Mundo Escondido! ✨",
-    "Você é a prova de que a verdadeira força vem de dentro!",
-    "Sua amizade é o maior tesouro que um viking poderia ter!",
-    "Olha o flash, o melhor Cavaleiro de Dragões está na área! 📸",
+    "Olá Humano, seja bem vinda!",
+    "As vezes a vida nos da umas pancadas, mas tudo bem, sem elas qual seria a graça?",
+    "Toma cuidado se não o banguela da uma cafungada, hahahahaha",
+    "Mas de verdade, você merece ser bem tratada",
+    "Mesmo sendo teimosa, segundo suas palavras...",
+    "Mas vai dar tudo dar certo, dança e balança essa raba",
+    "Brincadeira, só queria lhe ver dar uma risada 🤣🤣🤣",
+    "Deixa eu tirar uma foto desse sorriso que está longe de ser de fachada",
+    "de nada!"
   ];
 
   const gifs = [
-    "/gif1.gif",  // GIFs de elogios e positividade
+    "/gif1.gif",
     "/gif2.gif",
     "/gif3.gif",
     "/gif4.gif",
     "/gif5.gif",
-    "/gif6.gif",
     "/gif7.gif",
     "/gif8.gif",
-    "/gif9.gif",
-    "/gif10.gif",
     "/gif11.gif",
+    "/gif12.gif",
+
   ];
 
   const handleStart = () => {
