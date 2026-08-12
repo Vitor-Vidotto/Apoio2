@@ -166,6 +166,7 @@ const styles = {
     padding: "15px 30px",
     fontSize: "1.2em",
     fontWeight: "bold",
+    fontFamily: "var(--font-cinzel), serif",
     backgroundColor: "#112233",
     color: "white",
     border: "2px solid #00ffcc",
@@ -177,6 +178,7 @@ const styles = {
   linkButton: {
     padding: "10px 20px",
     fontSize: "1em",
+    fontFamily: "var(--font-cinzel), serif",
     color: "#00ffcc",
     textDecoration: "none",
     border: "1px solid #00ffcc",
